@@ -9,7 +9,7 @@ const { allNotifications } = storeToRefs(store);
 </script>
 
 <template>
-	<div class="w-full min-h-screen bg-grayish-blue-100 flex justify-center items-start md:py-12">
+	<div class="w-full min-h-screen bg-grayish-blue-100 flex justify-center items-start md:py-16">
 		<Notifications />
 	</div>
 </template>

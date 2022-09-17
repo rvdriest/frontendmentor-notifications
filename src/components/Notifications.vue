@@ -15,7 +15,7 @@ const { markAllAsRead } = store;
 </script>
 
 <template>
-	<div class="md:w-2/3 min-h-screen md:min-h-fit max-w-4xl w-full bg-white px-8 py-8 rounded-xl shadow-sm">
+	<div class="md:w-2/3 min-h-screen md:min-h-fit max-w-3xl w-full bg-white px-8 py-8 rounded-xl shadow-sm">
 		<div class="flex items-end justify-between">
 			<h1 class="font-extrabold text-2xl text-grayish-blue-600">Notifications <span class="bg-primary-blue text-white ml-2 px-3 rounded-md text-lg font-medium">{{allNotifications.length}}</span></h1>
 			<button class="cursor-pointer text-gray-500 hover:text-primary-blue" @click="markAllAsRead">Mark all as read</button>
