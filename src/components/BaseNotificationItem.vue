@@ -56,7 +56,7 @@ import { useNotificationsStore } from '../store/notifications';
 										<span class="font-extrabold text-grayish-blue-500 cursor-pointer hover:text-primary-blue">{{element.content}}</span>
 									</template>
 								</template>
-								<div class="w-2 h-2 bg-primary-red rounded-full inline-block" v-if="!props.read"></div>
+								<span class="w-2 h-2 bg-primary-red rounded-full inline-block" v-if="!props.read"></span>
 							</p>
 						</div>
 						<div>
